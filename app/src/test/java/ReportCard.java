@@ -45,7 +45,8 @@ public class ReportCard {
      * This function returns a String with all of the grades introduced.
      * @return
      */
-    public String getAllGrades(){
+    @Override
+    public String toString(){
         Enumeration keys = allGrades.keys();
         String report = "";
 
